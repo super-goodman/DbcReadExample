@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SpellBook">
+      <UniqueIdentifier>{754cdb24-473f-4628-b1b5-9e476ad21c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpellBook\Class">
+      <UniqueIdentifier>{22837109-49d5-4be6-ba0f-1d5e6c32c8a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathKnigh_Spell.cpp">
+      <Filter>SpellBook\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellBookManager.cpp">
+      <Filter>SpellBook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeathKnigh_Spell.h">
+      <Filter>SpellBook\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellBookManager.h">
+      <Filter>SpellBook</Filter>
+    </ClInclude>
+    <ClInclude Include="Spell.h">
+      <Filter>SpellBook</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="DeathKnigh_Spell.cpp">
+      <Filter>SpellBook\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellBookManager.cpp">
+      <Filter>SpellBook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeathKnigh_Spell.h">
+      <Filter>SpellBook\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Spell.h">
+      <Filter>SpellBook</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellBookManager.h">
+      <Filter>SpellBook</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SpellBook">
+      <UniqueIdentifier>{6ed72cc3-3d91-4110-9bfb-ab6655aabf9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpellBook\Class">
+      <UniqueIdentifier>{b1e60a64-147a-4369-a290-61d42a9efb9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
